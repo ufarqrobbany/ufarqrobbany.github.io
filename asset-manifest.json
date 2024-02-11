@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b1568e6f.css",
-    "main.js": "/static/js/main.6ba6bae9.js",
+    "main.css": "/static/css/main.bb7a5059.css",
+    "main.js": "/static/js/main.a3f670b9.js",
     "static/js/787.9f8659d2.chunk.js": "/static/js/787.9f8659d2.chunk.js",
     "static/media/polban.png": "/static/media/polban.3ea738490dae944ab9f5.png",
     "static/media/Ubuntu-Light.ttf": "/static/media/Ubuntu-Light.0dd2d5986e2731a16ee7.ttf",
@@ -12,12 +12,12 @@
     "static/media/Chewy-Regular.ttf": "/static/media/Chewy-Regular.e94e4ae6b454c4a3e69c.ttf",
     "static/media/BubblegumSans-Regular.ttf": "/static/media/BubblegumSans-Regular.4161a3f44e0184ea37fd.ttf",
     "index.html": "/index.html",
-    "main.b1568e6f.css.map": "/static/css/main.b1568e6f.css.map",
-    "main.6ba6bae9.js.map": "/static/js/main.6ba6bae9.js.map",
+    "main.bb7a5059.css.map": "/static/css/main.bb7a5059.css.map",
+    "main.a3f670b9.js.map": "/static/js/main.a3f670b9.js.map",
     "787.9f8659d2.chunk.js.map": "/static/js/787.9f8659d2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b1568e6f.css",
-    "static/js/main.6ba6bae9.js"
+    "static/css/main.bb7a5059.css",
+    "static/js/main.a3f670b9.js"
   ]
 }
