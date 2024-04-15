@@ -1,23 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.0aa603d5.css",
-    "main.js": "/static/js/main.6ba6bae9.js",
-    "static/js/787.9f8659d2.chunk.js": "/static/js/787.9f8659d2.chunk.js",
-    "static/media/polban.png": "/static/media/polban.3ea738490dae944ab9f5.png",
-    "static/media/Ubuntu-Light.ttf": "/static/media/Ubuntu-Light.0dd2d5986e2731a16ee7.ttf",
-    "static/media/Ubuntu-Regular.ttf": "/static/media/Ubuntu-Regular.1cbb1b79a23478cc89ad.ttf",
-    "static/media/Ubuntu-Medium.ttf": "/static/media/Ubuntu-Medium.e37c5546eb1a6efc4818.ttf",
-    "static/media/profil.png": "/static/media/profil.762d8e55a17917f3d81f.png",
-    "static/media/Ubuntu-Bold.ttf": "/static/media/Ubuntu-Bold.fec2d0f1431a6114a6ce.ttf",
-    "static/media/Chewy-Regular.ttf": "/static/media/Chewy-Regular.e94e4ae6b454c4a3e69c.ttf",
-    "static/media/BubblegumSans-Regular.ttf": "/static/media/BubblegumSans-Regular.4161a3f44e0184ea37fd.ttf",
+    "main.css": "/static/css/main.47cc92cd.css",
+    "main.js": "/static/js/main.ff345fa1.js",
+    "static/js/453.fa5360b1.chunk.js": "/static/js/453.fa5360b1.chunk.js",
+    "static/media/header-bg.jpg": "/static/media/header-bg.bbaac7c8eb333fcc2287.jpg",
+    "static/media/project-2.png": "/static/media/project-2.234be1247a206058dcdc.png",
+    "static/media/project-8.jpg": "/static/media/project-8.8a9d3b6f718571af5a18.jpg",
+    "static/media/Calendas_Plus.otf": "/static/media/Calendas_Plus.f58abf7446b567657e64.otf",
+    "static/media/profil-1.png": "/static/media/profil-1.5bb56790e043f4ce1b59.png",
+    "static/media/profil-2.png": "/static/media/profil-2.18646adf3f5320f85307.png",
+    "static/media/project-4.jpg": "/static/media/project-4.cf4b9200cbc715b4c7ef.jpg",
+    "static/media/project-5.jpg": "/static/media/project-5.1db0bf8e8e9537a26376.jpg",
+    "static/media/project-7.jpg": "/static/media/project-7.eb062baccbebd494c531.jpg",
+    "static/media/project-6.jpg": "/static/media/project-6.55d0b1659eff5efcbab7.jpg",
+    "static/media/project-3.png": "/static/media/project-3.65b0a96118f4ff13c618.png",
+    "static/media/certificate-1.jpeg": "/static/media/certificate-1.6025fa5db69c241fe3e9.jpeg",
+    "static/media/GravityLevelDemoRegular.ttf": "/static/media/GravityLevelDemoRegular.fcbfbca2b0186722a151.ttf",
+    "static/media/student-profil.jpg": "/static/media/student-profil.de0400224c3337d256ca.jpg",
+    "static/media/project-1.png": "/static/media/project-1.d45b4242f19b1d29bee3.png",
     "index.html": "/index.html",
-    "main.0aa603d5.css.map": "/static/css/main.0aa603d5.css.map",
-    "main.6ba6bae9.js.map": "/static/js/main.6ba6bae9.js.map",
-    "787.9f8659d2.chunk.js.map": "/static/js/787.9f8659d2.chunk.js.map"
+    "main.47cc92cd.css.map": "/static/css/main.47cc92cd.css.map",
+    "main.ff345fa1.js.map": "/static/js/main.ff345fa1.js.map",
+    "453.fa5360b1.chunk.js.map": "/static/js/453.fa5360b1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0aa603d5.css",
-    "static/js/main.6ba6bae9.js"
+    "static/css/main.47cc92cd.css",
+    "static/js/main.ff345fa1.js"
   ]
 }

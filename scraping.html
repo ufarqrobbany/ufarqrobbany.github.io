@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Scraping I - Umar Faruq Robbany</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/808000fac2.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.datatables.net/v/dt/jq-3.7.0/dt-2.0.3/r-3.0.1/datatables.min.css" rel="stylesheet">
+    <script src="https://cdn.datatables.net/v/dt/jq-3.7.0/dt-2.0.3/r-3.0.1/datatables.min.js"></script>
+    <script src="js/query.js"></script>
+</head>
+
+<body>
+    <div id="scraping">
+        <div class="container">
+            <h1 class="sub-title">Scraping Data Berita Online</h1>
+            <p><a href="https://www.republika.co.id/" id="news-title">republika.co.id</a></p>
+            <table id="data-scrap">
+                <thead>
+                    <tr>
+                        <td>No.</td>
+                        <td>Judul Berita</td>
+                        <td>Kategori</td>
+                        <td>Waktu Publish</td>
+                        <td>Waktu Scraping</td>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    </div>
+
+    <script>
+      $.get("berita.json", function (data) {
+        let items = data.map((item, idx) => {
+          return {
+            ...item,
+            id: idx + 1,
+            judul: '<a href="' + item.url + '" target="_blank">' + item.judul + '</a>',
+          };
+        });
+
+        $(document).ready(function () {
+          $('#data-scrap').DataTable({
+            data: items,
+            columns: [
+              { data: 'id' },
+              { data: 'judul' },
+              { data: 'kategori' },
+              { data: 'waktu_publish' },
+              { data: 'waktu_scraping' },
+              { data: 'url', visible: false }
+            ],
+            responsive: true,
+            scrollX: true
+          });
+        });
+        });
+    </script>
+</body>
+
+</html>
